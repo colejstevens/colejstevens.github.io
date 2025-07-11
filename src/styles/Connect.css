@@ -1,0 +1,50 @@
+.connect-section {
+    max-width: 600px;
+    margin: 4rem auto;
+    padding: 2rem;
+    text-align: center;
+    color: #e0e1dd;
+}
+
+.connect-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #e0e1dd;
+}
+
+.connect-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #778da9;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    background-color: #1b263b;
+    color: #e0e1dd;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: 2px solid #415a77;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+}
+
+.social-links a:hover {
+    background-color: #415a77;
+    transform: translateY(-2px);
+}
+
+.icon {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+

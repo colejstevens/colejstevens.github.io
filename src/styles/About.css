@@ -1,0 +1,83 @@
+.about-section {
+    max-width: 600px;
+    margin: 5rem auto;
+    padding: 2rem;
+    color: #e0e1dd;
+    text-align: center;
+    font-family: 'Funnel Sans', 'Roboto', Arial, sans-serif;
+}
+
+.typing-text {
+    font-size: 3rem;
+    font-weight: 700;
+    display: inline-block;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    margin-bottom: 1rem;
+    font-family: 'Fira Code', 'Source Code Pro', Consolas, 'Courier New', monospace;
+    letter-spacing: 0.05em;
+}
+
+.cursor {
+    display: inline-block;
+    width: 2px;
+    background-color: #e0e1dd;
+    margin-left: 5px;
+    vertical-align: bottom;
+    height: 3rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.cursor.blink {
+    animation: blink 1s steps(2, start) infinite;
+    opacity: 1;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0;
+    }
+}
+
+.subtitle {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #778da9;
+}
+
+.description {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #cfd1d7;
+    line-height: 1.5;
+}
+
+.download-cv-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 2rem;
+    background-color: #415a77;
+    color: #e0e1dd;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px solid #415a77;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.download-cv-button:hover {
+    background-color: #778da9;
+    border-color: #778da9;
+}
+
+.download-cv-button .icon {
+    font-size: 1rem;
+    flex-shrink: 0;
+}
