@@ -5,7 +5,7 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 const projects = [
     {
         title: 'Fake News Classifier',
-        image: '../../public/img/project1.png',
+        image: '/img/project1.png',
         miniDescription: 'A LLM designed to determine the truthfulness of news articles',
         description: "For my honours project, I worked with a small team to build a classifier using Meta’s LLaMA model, training it on hundreds of thousands of real and fake news articles so it could predict whether an article was genuine or misleading.",
         technologies: ['Python', 'Machine Learning', 'Scikit-Learn', 'LLaMA', 'PyTorch', 'Unsloth', 'Pandas', 'Transformers'],
@@ -13,7 +13,7 @@ const projects = [
     },
     {
         title: 'Stock Market Analysis',
-        image: '../../public/img/project2.png',
+        image: '/img/project2.png',
         miniDescription: 'Analyzed S&P 500 stock trends and trained classification models to predict market behaviour.',
         description: 'Collaborated with a small team to analyze decades of S&P 500 data, identifying historical patterns and trends. We developed and tested several AI models to forecast stock performance and assess potential profitability.',
         technologies: ['Python', 'APIs', 'PostgreSQL', 'Machine Learning', 'Scikit-Learn', 'Power BI'],
